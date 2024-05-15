@@ -1,0 +1,68 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para máximo 600px */
+@media (max-width: 600px) 
+{
+    body
+    {
+        background-color: rgba(0, 0, 0, 0.831);
+    }
+}
+
+@media (min-width: 601px) 
+{
+    body
+    {
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+#title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    height: 50px;
+    width: 550px;
+    border: 3px solid #ffffff; /* 3px de ancho, sólido, color negro */
+}
+
+#password
+{
+    position: absolute;
+    top: 80px;
+    height: 25px;
+    width: 550px;
+    border: 3px solid #ebdbdb; /* 3px de ancho, sólido, color negro */
+    color: #ebdbdb;
+    display: flex;
+    justify-content: space-between; /* Espacio entre los elementos, los coloca al inicio y al final */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.pass
+{
+    position: relative;
+    left: 10px;
+}
+
+.icono-copiar
+{
+    position: relative;
+    right: 10px;
+}
+
+.icono-copiar 
+{
+    cursor: pointer;
+}
+
