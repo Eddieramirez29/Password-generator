@@ -8,11 +8,20 @@
         background-color: rgba(0, 0, 0, 0.831);
         display: flex;
         justify-content: center;
-     align-items: center;
+        align-items: center;
     }
+    #title
+    {
+        width: 440px;
+    }
+    #password
+    {
+        width: 440px;
+    }
+
 }
 
-@media (min-width: 601px) 
+@media (min-width: 481px) 
 {
     body
     {
@@ -20,6 +29,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    #title
+    {
+        width: 450px;
+    }
+    #password
+    {
+        width: 450px;
     }
 }
 
@@ -30,7 +47,6 @@
     align-items: center;
     color: gray;
     height: 50px;
-    width: 550px;
     border: 3px solid #ffffff; /* 3px de ancho, sólido, color negro */
 }
 
@@ -39,7 +55,6 @@
     position: absolute;
     top: 80px;
     height: 25px;
-    width: 550px;
     border: 3px solid #ebdbdb; /* 3px de ancho, sólido, color negro */
     color: #ebdbdb;
     display: flex;
@@ -57,10 +72,8 @@
 {
     position: relative;
     right: 10px;
-}
-
-.icono-copiar 
-{
     cursor: pointer;
 }
+
+
 
