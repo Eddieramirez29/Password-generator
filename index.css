@@ -1,9 +1,4 @@
-body
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 /* Estilos para máximo 600px */
 @media (max-width: 600px) 
@@ -11,6 +6,9 @@ body
     body
     {
         background-color: rgba(0, 0, 0, 0.831);
+        display: flex;
+        justify-content: center;
+     align-items: center;
     }
 }
 
