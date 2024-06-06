@@ -110,15 +110,15 @@
 #containerSlider
 {
     display: flex;
-        justify-content: center;
-        align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 #slider 
 {
     -webkit-appearance: none; /* Quita el estilo por defecto en navegadores WebKit */
     width: 250px;
     height: 10px;
-    background: linear-gradient(to right, #45e345b8 50%, #000000 50%);
+    background: linear-gradient(to right, #45e345b8 0%, #000000 0%);
     outline: none;
     border-radius: 5px;
     overflow: hidden;
