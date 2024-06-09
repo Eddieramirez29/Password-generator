@@ -208,3 +208,35 @@
     width: 400px;
 }
 
+/* Estilo para los checkboxes */
+input[type="checkbox"] {
+    /* Eliminamos el estilo por defecto */
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #4CAF50; /* Color del borde verde */
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    background-color: #FFFFFF; /* Fondo blanco por defecto */
+}
+
+/* Estilo cuando el checkbox está seleccionado */
+input[type="checkbox"]:checked {
+    background-color: #4CAF50; /* Fondo verde cuando está seleccionado */
+}
+
+input[type="checkbox"]:checked::after {
+    content: "\2713"; /* Carácter del checkmark */
+    color: #000000; /* Color negro para el checkmark */
+    font-size: 16px; /* Tamaño del checkmark */
+    position: absolute;
+    top: 0;
+    left: 4px;
+    width: 12px;
+    height: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
