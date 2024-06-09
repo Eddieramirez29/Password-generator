@@ -148,10 +148,63 @@
 }
 
 
-#containercheckboxes
+#c1
 {
     position: relative;
-    top: 75px;
-    border: 2px solid #ffffff;
-    width: 800px;
+    top:25px;
+    left: 5px;
 }
+
+#c1L
+{
+    position: relative;
+    top:-10px;
+    left: 30px;
+    width: 400px;
+}
+
+#c2
+{
+    position: relative;
+    top:-15px;
+    left: 5px;
+}
+
+#c2L
+{
+    position: relative;
+    top:-50px;
+    left: 30px;
+    width: 400px;
+}
+
+#c3
+{
+    position: relative;
+    top:-55px;
+    left: 5px;
+}
+
+#c3L
+{
+    position: relative;
+    top:-90px;
+    left: 30px;
+    width: 400px;
+}
+
+#c4
+{
+    position: relative;
+    top:-95px;
+    left: 5px;
+}
+
+#c4L
+{
+    position: relative;
+    top:-130px;
+    left: 30px;
+    width: 400px;
+}
+
