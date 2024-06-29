@@ -113,7 +113,7 @@
     justify-content: center;
     align-items: center;
 }
-#slider 
+#slider
 {
     -webkit-appearance: none; /* Quita el estilo por defecto en navegadores WebKit */
     width: 250px;
