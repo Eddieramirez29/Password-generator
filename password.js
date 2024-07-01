@@ -1,3 +1,15 @@
+const slider = document.getElementById('slider');
+const lengthValue = document.getElementById("characterLength");
+let length2;
+
+slider.addEventListener('input', function()
+{
+    const value = (slider.value - slider.min) / (slider.max - slider.min) * 100;
+    length2 = value/5;
+    characterLength.innerHTML = Math.floor(value/5);//Se asegura de redondearlo hacia abajo, ya que en el 11 desplega un número decimal
+    slider.style.background = `linear-gradient(to right, #00ff00 ${value}%, #000000 ${value}%)`;
+});
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7
 let newPassword = document.querySelector('.pass');
 let generatePasswordButton = document.getElementById("generatePassword")
 
@@ -23,7 +35,7 @@ function generateRandomPassword(length) {
 
 generatePasswordButton.addEventListener('click', () => {
     // Ejemplo de uso: generar una contraseña de 12 caracteres
-    const password = generateRandomPassword(12);
+    const password = generateRandomPassword(length2);
     newPassword.textContent  = password;
     console.log(password);
 });
