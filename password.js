@@ -1,3 +1,6 @@
+/**
+ * Code for generating set up the amount of character in the password by using a slide bar
+ */
 const slider = document.getElementById('slider');
 const lengthValue = document.getElementById("characterLength");
 let length2;
@@ -10,6 +13,9 @@ slider.addEventListener('input', function()
     slider.style.background = `linear-gradient(to right, #00ff00 ${value}%, #000000 ${value}%)`;
 });
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7
+/**
+ * Code for generating random characteres
+ */
 let newPassword = document.querySelector('.pass');
 let generatePasswordButton = document.getElementById("generatePassword")
 
